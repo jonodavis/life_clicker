@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clicker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/225/fish_1f41f.png">
+</head>
+<body>
+  <div class="container">
+    <div class="game">
+      <div id="topRow">
+        <a class="actionButton" id="eat">🥖 Eat</a>
+        <a class="actionButton" id="drink">🥛 Drink</a>
+        <a class="actionButton" id="clean">🧼 Clean</a>
+        <a class="actionButton" id="play">⚽ Play</a>
+        <a class="actionButton" id="sleep">🛏️ Sleep</a>
+      </div>
+      <div id="middleRow">
+        <a id="btnStart">Start New Life</a>
+      </div>
+      <div id="bottomRow">
+          <div class="stat">🍴 Hunger: <span id="hunger"></span>/<span id="maxHunger"></span></div>
+          <div class="stat">🍼 Hydration: <span id="hydration"></span>/<span id="maxHydration"></span></div>
+          <div class="stat">🧽 Hygiene: <span id="hygiene" ></span>/<span id="maxHygiene" ></span></div>
+          <div class="stat">🤗 Happiness: <span id="happiness"></span>/<span id="maxHappiness"></span></div>
+          <div class="stat">🔋 Energy: <span id="energy"></span>/<span id="maxEnergy"></span></div>
+          <div class="stat">❤️ Health: <span id="health"></span>/<span id="maxHealth"></span></div>
+      </div>
+    </div>
+    <div class="stats">
+      <p>📋 Name: <span id="name"></span></p>
+      <p>🏳️‍🌈 Gender: <span id="gender"></span></p>
+      <p>🌎 Nationality: <span id="nationality"></span></p>
+      <p>😃 Life Level: <span id="life"></span></p>
+      <p>💰 Wealth: <span id="wealth"></span></p>
+      <p>💪 Strength: <span id="strength"></span></p>
+      <p>🎣 Fishing Level: <span id="fishing"></span></p>
+      <p>📚 Intelligence: <span id="intelligence"></span></p>
+      <p>🕶️ Charisma: <span id="charisma"></span></p>
+    </div>
+    <div class="console">
+      <ul id="console"></ul>  
+    </div>
+  </div>
+  <div class="version">v0.1.1</div>
+  <script src="script.js"></script>
+</body>
+</html>
